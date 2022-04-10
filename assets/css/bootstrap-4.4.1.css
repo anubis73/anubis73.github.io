@@ -4801,7 +4801,7 @@ input[type="button"].btn-block {
 }
 
 .card-header:first-child {
-  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
 }
 
 .card-header + .list-group .list-group-item:first-child {
@@ -8128,7 +8128,8 @@ button.bg-dark:focus {
 
 .mb-0,
 .my-0 {
-  margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    color: #FFFFFF;
 }
 
 .ml-0,
