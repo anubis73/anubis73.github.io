@@ -60,7 +60,7 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: center;
-    background-color: #fff;
+    background-color: #000000;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -79,8 +79,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 abbr[title],
@@ -365,6 +367,7 @@ h1, h2, h3, h4, h5, h6,
 h1, .h1 {
     font-size: 2.5rem;
     text-align: center;
+    color: #FFFFFF;
 }
 
 h2, .h2 {
@@ -575,11 +578,12 @@ pre code {
 }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #000000;
 }
 
 @media (min-width: 576px) {
@@ -607,12 +611,13 @@ pre code {
 }
 
 .row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: #000000;
 }
 
 .no-gutters {
@@ -1559,6 +1564,8 @@ pre code {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
+    text-align: center;
+    background-color: #05B6F9;
   }
   .col-xl-7 {
     -ms-flex: 0 0 58.333333%;
@@ -4729,17 +4736,17 @@ input[type="button"].btn-block {
 }
 
 .card {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #000000;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
 }
 
 .card > hr {
@@ -4765,7 +4772,8 @@ input[type="button"].btn-block {
 }
 
 .card-title {
-  margin-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+    color: #FFFFFF;
 }
 
 .card-subtitle {
@@ -6757,7 +6765,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-    background-color: #187FE7 !important;
+    background-color: #00A1FB !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
